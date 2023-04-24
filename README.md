@@ -3,7 +3,7 @@
 ```powershell
 
 $RoleGroupName = "Password Reset 01"
-$UserToGrant = "samdrey"
+$UserToGrant = "UserName"
 
 New-RoleGroup $RoleGroupName
 new-ManagementRoleAssignment -Role "Reset Password" -SecurityGroup $RoleGroupName
